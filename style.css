@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'Smythe';
+    src: url('fonts/Smythe-Regular.ttf');
+}
+
+body {
+    margin: 0 auto;
+    width: 600px;
+}
+
+header{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-content{
+    display: flex;
+    align-items: flex-start;
+    width: 600px;
+}
+
+
+/* fonts*/
+
+.order-text{
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+label{
+    font-size:32px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Verdana';
+    padding-top: 45px;
+}
+
+.menu-content,
+.order-text,
+.order-price,
+.order-food,
+.sum-price,
+#total-prices-text
+{
+    font-family: "Smythe"
+}
+
+.menu-emoji{
+    font-size: 78px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-list{
+    width: 500px;
+    padding-left:30px;
+}
+
+.food-name{
+    font-size: 28px;
+    margin:0;
+}
+
+.food-name,
+.food-price{
+    font-weight: 400;
+}
+
+.food-ingredients{
+    font-size: 16px;
+}
+
+.food-price{
+    font-size: 20px;
+}
+
+.addBtn{
+    font-size: 32px;
+}
+
+#total-prices-text,
+.order-text,
+.order-food
+{
+    font-size:28px;
+}
+
+.sum-price,
+.order-price{
+    font-size:20px;
+}
+
+
+/* button */
+
+.addBtn{
+    width: 50px;
+    height: 50px;
+    border:none;
+    cursor: pointer;
+}
+
+.cart-btn{
+    display: flex;
+    width: 600px;
+    justify-content: flex-end;
+}
+
+.remove-order-btn{
+    background: none;
+    border:none;
+    color:#BBBB;
+    cursor: pointer;
+    font-family: 'Verdana';
+}
+
+
+.complete-order-btn{
+    background: #16DB99;
+    width: 508px;
+    height: 60px;
+    color:#FFFF;
+    border:none;
+    cursor:pointer;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom:50px;
+}
+
+.pay{
+    background: #16DB99;
+    width: 475.91px;
+    height: 71.3px;
+    border: none;
+    margin-top:45px;
+    color:#FFFFFF;
+    font-size:20px;
+    font-weight: 700;
+    cursor:pointer;
+}
+/* border */ 
+.border-bottom{
+    border: 1px solid #D2D2D2;
+    width: 504px;
+    margin: 50px auto 0 auto;
+}
+
+.black-border-bottom{
+    border: 2px solid #393333;
+}
+
+
+/* flexbox */
+
+.menu-content{
+    padding-top:45px;
+}
+
+.order-food{
+    padding-right: 10px;
+}
+
+.order-inner{
+    display:flex;
+    align-items: center;
+}
+.order-price{
+    margin-left:auto;
+}
+
+.yourOrder{
+    display:none;
+}
+
+.visible{
+    display:flex
+}
+
+.enter-card-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.total-prices{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* other */
+
+.thanksMsg{
+    display:none;
+    justify-content: center;
+    align-items: center;
+    color:#065F46;
+    background-color:#ECFDF5;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 25px;
+    width: 504px;
+    height: 120px; 
+}
+
+input{
+    width: 450px;
+    height: 71.3px;
+    padding-left:25px;
+    border-radius: 5px;
+    margin-top: 23px;
+    font-size:20px;
+}
+
+.enterCard{
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    left:475px;
+    bottom:60px;
+    filter: drop-shadow(5.18654px 5.18654px 255.437px rgba(0, 0, 0, 0.5));
+    background: #FFFFFF;
+    height: 542px;
+    width: 524px;
+    border-radius: 4px;
+}
+
+div{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.unclickable{
+    pointer-events: none;
+}

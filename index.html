@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <html lang="fr">
+    <meta charset="UTF-8">
+    <title>Restaurant Ordering App</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main >
+        <header>
+            <img src="images/ferks-guare-KEZdWfYD-ow-unsplash 1.png">
+        </header>
+
+        <div id="menu"></div>
+
+        <div class="yourOrder">
+            <div class="div-tittle">
+                <p class="order-text">Your Ordrer</p>
+            </div>
+            <div id="payment-content"></div>
+            <div id="order-content"></div>
+            <div class="black-border-bottom"></div>
+            <div class="total-prices">
+                <p id="total-prices-text">Total Prices:</p><p class="sum-price"></p> 
+            </div>
+            <button class="complete-order-btn">Complete order</button>
+            </div>
+        </div>
+
+        <div class="thanksMsg"></div>
+
+        <div class="enterCard">
+            <form class="enter-card-center">
+                <label>Enter card detail</label>
+                <input type="text" placeholder="Enter your name"  class="input-card" id="name" required/>
+                
+                <input
+                type="number"
+                placeholder="Enter card number" 
+                maxlength="16" class="input-card" id="cardNb" required/>
+
+                <input
+                type="number"
+                placeholder="Enter CVV" 
+                maxlength="3" class="input-card" id="cvv" required/>
+
+                <button type="button" class="pay">Pay</button>
+            </form>
+        </div>
+    </div>
+    </main>
+
+    <script src="script.js" type="module"></script>
+</body>
+
+
+</html>
