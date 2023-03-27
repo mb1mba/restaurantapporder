@@ -1,1 +1,1 @@
-https://restaurantorderapp.netlify.app
+https://restaurantorderapp.netlify.app/
